@@ -57,7 +57,7 @@ class google_translateError(Exception):
         return "{}. Probable cause: {}".format(premise, cause)
 
 
-class google_translator:
+class translator:
     '''
     You can use 108 language in target and source,details view LANGUAGES.
     Target language: like 'en'、'zh'、'th'...
